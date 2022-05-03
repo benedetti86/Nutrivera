@@ -12,7 +12,20 @@ h1{
     color: black;
     border-bottom: 15px; color: blueviolet;
     text-align: center;
+    animation:slide-in .5s;
 }
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
 
 
 .footer {
@@ -61,7 +74,14 @@ nav {
 .logonav { 
     width: 90px;
     height: auto;
+    transition: all .5s; 
+    
 }
+.logonav:hover{ transform: scale(1.25);
+
+}
+
+
 
 nav ul {
 list-style-type: none;
@@ -73,8 +93,11 @@ text-align: center;
 }
 nav ul li {
     margin: 1rem;
-    
+    transition: all .5s; 
 }
+nav ul li:hover{ transform: scale(1.7);}
+
+
 .linknavbar { 
     color: beige;
 
