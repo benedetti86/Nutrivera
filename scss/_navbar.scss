@@ -1,0 +1,43 @@
+.filanav {
+	display: flex;
+}
+.fila2nav {
+	display: flex;
+}
+nav {
+	background-color: black;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	ul {
+		list-style-type: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+		li {
+			margin: 1rem;
+			transition: all .5s;
+			&:hover {
+				transform: scale(1.4);
+			}
+		}
+	}
+}
+.logonav {
+	width: 90px;
+	height: auto;
+	transition: all .5s;
+	&:hover {
+		transform: scale(1.25);
+	}
+}
+.linknavbar {
+	color: beige;
+	
+}
+
+a {
+	color: black;
+}

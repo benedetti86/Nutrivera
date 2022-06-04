@@ -1,0 +1,142 @@
+.filanav {
+  display: flex; }
+
+.fila2nav {
+  display: flex; }
+
+nav {
+  background-color: black;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; }
+    nav ul li {
+      margin: 1rem;
+      transition: all .5s; }
+      nav ul li:hover {
+        transform: scale(1.4); }
+
+.logonav {
+  width: 90px;
+  height: auto;
+  transition: all .5s; }
+  .logonav:hover {
+    transform: scale(1.25); }
+
+.linknavbar {
+  color: beige; }
+
+a {
+  color: black; }
+
+@-webkit-keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0%); } }
+
+@-moz-keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0%); } }
+
+@-ms-keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0%); } }
+
+@-o-keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0%); } }
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0%); } }
+
+body {
+  background-color: blanchedalmond;
+  background-repeat: repeat;
+  background-size: 40%;
+  font-family: 'Ms Madi', cursive;
+  font-size: 1rem; }
+
+main {
+  margin: 1rem; }
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border-bottom: 15px;
+  color: blueviolet;
+  text-align: center;
+  animation: slide-in .5s; }
+
+.footer {
+  background-image: url(img/footer.jpeg);
+  background-repeat: repeat-x;
+  color: aliceblue; }
+
+.bodysobremi {
+  background-image: url(img/footer.jpeg);
+  color: black; }
+
+.recetasdulces {
+  color: black;
+  font-weight: 200; }
+
+.imagenrecetasdulces {
+  width: 20%;
+  height: auto; }
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto; }
+
+.imagenesgrid {
+  text-align: center; }
+  .imagenesgrid img {
+    width: 100%;
+    height: auto; }
+
+.imgsaladas {
+  width: 50%;
+  height: auto; }
+
+@media screen and (min-width: 768px) {
+  .imgsaladas {
+    width: 20%; }
+  nav {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row; }
+      nav ul li {
+        margin: 1rem; }
+  .logonav {
+    width: 90px;
+    height: auto; }
+  .linknavbar {
+    color: beige; } }
