@@ -76,14 +76,14 @@ body {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Ms Madi', cursive;
+  font-family: 'Raleway', sans-serif !important;
   font-size: 1rem; }
 
 main {
   margin: 1rem; }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
   color: black;
   border-bottom: 15px;
   color: blueviolet;
