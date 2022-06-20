@@ -1,7 +1,17 @@
 body {
-    background-color: blanchedalmond;
-    background-repeat: repeat;
-    background-size: 40%;
+    
+
+    
+    background: #DBE6F6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+
+
+    
+    
     font-family: 'Ms Madi', cursive;
 
     
@@ -9,6 +19,7 @@ body {
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     color: black;
     border-bottom: 15px; color: blueviolet;
     text-align: center;
@@ -41,7 +52,7 @@ h1{
 .bodysobremi {
     background-image: url(img/footer.jpeg);
     background-size: 50%;
-    color: beige;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 50%, #ffffff 100%);
     font-size: 25px;
     
     

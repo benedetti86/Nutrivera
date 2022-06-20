@@ -71,9 +71,11 @@ a {
     transform: translateX(0%); } }
 
 body {
-  background-color: blanchedalmond;
-  background-repeat: repeat;
-  background-size: 40%;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Ms Madi', cursive;
   font-size: 1rem; }
 
@@ -94,7 +96,6 @@ h1 {
   color: aliceblue; }
 
 .bodysobremi {
-  background-image: url(img/footer.jpeg);
   color: black; }
 
 .recetasdulces {
